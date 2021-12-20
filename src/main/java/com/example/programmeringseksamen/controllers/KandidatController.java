@@ -22,9 +22,9 @@ public class KandidatController {
         return kandidater.findAll();
     }
 
-    @GetMapping("/kandidater/{id}")
-    public Kandidat getKandidatById(@PathVariable Long id){
-        return kandidater.findById(id).get();
+    @GetMapping("/kandidater/{partiName}")
+    public List<Kandidat> getKandidatByParti(@PathVariable String partiName){
+        return kandidater.findKandidatsByParti_Name(partiName);
     }
 
     @PostMapping("/kandidater/{name}")

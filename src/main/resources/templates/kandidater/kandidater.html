@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../global/global.css">
+    <script src="../global/global.js"></script>
+    <title>Kandidater</title>
+</head>
+<body>
+
+<h1>Liste over alle kandidater</h1>
+
+<a href="../partier/valgresultat.html">
+    <button>Se Valgresultatet</button>
+</a>
+
+<table class="kandidat" id="kandidater-tbody">
+    <thead>
+    <tr>
+        <th>Kandidater</th>
+        <th>Alder</th>
+        <th>Email</th>
+        <th>Parti</th>
+        <th>Rediger/slet</th>
+    </tr>
+    </thead>
+</table>
+<div>
+    <button id="expand-kandidat-form">Opret ny Kandidat og sorter</button>
+    <div id="create-kandidat-form"></div>
+    <div id="kandidatSF-div">
+    </div>
+    <div id="kandidatDF-div">
+    </div>
+</div>
+<div>
+
+</div>
+
+<script src="kandidater.js"></script>
+<script src="updateKandidater.js"></script>
+<script src="createKandidater.js"></script>
+<script src="sortKandidat.js"></script>
+</body>
+</html>

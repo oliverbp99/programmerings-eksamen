@@ -16,6 +16,9 @@ public class Parti {
     @Column
     private String description;
 
+    @Column
+    private String votes;
+
     @JsonIgnore
     @OneToMany(mappedBy = "parti", fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
     private List<Kandidat> kandidater;
