@@ -1,6 +1,7 @@
 const kandidatDFDiv = document.getElementById("kandidatDF-div")
 const kandidatSFDiv = document.getElementById("kandidatSF-div")
 
+
 /*function showKandidatForm() {
     kandidatFormExpandButton.style.display = "none";
     kandidatFormDiv.innerHTML = createKandidatForm;
@@ -38,7 +39,6 @@ function sortByDF(){
             kandidaterDF.map(createKandidatCardDF);
         })
 }
-
 
 function createKandidatCardDF(kandidat) {
     console.log(kandidat)

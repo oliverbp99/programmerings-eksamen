@@ -53,7 +53,7 @@ function createKandidat() {
         name: name,
         age: age,
         email: email,
-        area: newParti
+        parti: newParti
 
     };
 
